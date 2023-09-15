@@ -1,0 +1,66 @@
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 300px;
+}
+
+
+.jumbotron{
+    margin: 20px;
+    margin-top: 100px;
+}
+
+img{
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+form{
+    text-align: left;
+    justify-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    transition: all 1s;
+    
+}
+
+input{
+    
+    text-align: left;
+    background-color: transparent;
+    color: rgb(151, 151, 151);
+    border: none;
+    border-bottom: 2px solid rgb(1, 10,0);
+    outline: none;
+    font-size: 19px;
+    font-weight: 200;
+    padding: 10px 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.fom{
+    background-image: url(img/women.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    text-align: center;
+    width: 35rem;
+    color: rgb(244, 244, 244);
+    text-align: center;
+    background-color: rgb(188, 210, 209);
+    background: #7abcff;
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); 
+   
+}
+
+
+form:hover{
+    transform: scale(1.1);
+}
